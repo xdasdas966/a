@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>$ZOG — MemeCoin</title>
+  <style>
+    body{
+      margin:0;
+      font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #12142b, #1a1d3d, #222551);
+      color:white;
+      overflow-x:hidden;
+    }
+    .presale-bar{
+      background:#39ff90;
+      color:#111;
+      text-align:center;
+      padding:15px 20px;
+      font-size:18px;
+      font-weight:bold;
+      box-shadow:0 4px 12px rgba(0,0,0,0.4);
+    }
+    .presale-bar button{
+      margin-left:15px;
+      background:#111;
+      color:#39ff90;
+      padding:10px 20px;
+      border-radius:20px;
+      font-size:16px;
+      font-weight:bold;
+      border:none;
+      cursor:pointer;
+      transition:transform .2s;
+    }
+    .presale-bar button:hover{
+      transform:translateY(-2px);
+    }
+    header{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      min-height:60vh;
+      position:relative;
+      overflow:hidden;
+      padding:20px 20px;
+    }
+    header h1{
+      font-size:48px;
+      margin:10px 0;
+      color:#39ff90;
+      text-shadow:0 4px 16px rgba(0,0,0,0.7);
+    }
+    header p{
+      font-size:18px;
+      max-width:600px;
+      margin:0 auto 20px;
+      color:#ddd;
+    }
+    .btn{
+      background:#39ff90;
+      color:#111;
+      padding:14px 28px;
+      border-radius:30px;
+      font-weight:bold;
+      border:none;
+      cursor:pointer;
+      font-size:18px;
+      box-shadow:0 8px 25px rgba(57,255,144,0.4);
+      transition:transform .2s;
+    }
+    .btn:hover{
+      transform:translateY(-4px);
+    }
+    header img.hero{
+      max-width:220px;
+      width:100%;
+      border-radius:24px;
+      margin-top:20px;
+      box-shadow:0 12px 50px rgba(0,0,0,0.6);
+      animation:floaty 6s ease-in-out infinite;
+    }
+    @keyframes floaty {
+      0%,100%{transform:translateY(0)}
+      50%{transform:translateY(-20px)}
+    }
+    section{
+      padding:80px 20px;
+      text-align:center;
+    }
+    section h2{
+      font-size:42px;
+      margin-bottom:20px;
+      color:#ffd95d;
+    }
+    section p{
+      max-width:800px;
+      margin:0 auto 30px;
+      color:#ccc;
+      font-size:18px;
+    }
+    .meme-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:20px;
+      margin-top:40px;
+    }
+    .meme-grid img{
+      width:100%;
+      border-radius:18px;
+      box-shadow:0 8px 30px rgba(0,0,0,0.6);
+      transition:transform .25s;
+    }
+    .meme-grid img:hover{
+      transform:scale(1.05);
+    }
+    footer{
+      text-align:center;
+      padding:40px;
+      font-size:14px;
+      color:#777;
+    }
+    ul.presale-info{
+      list-style:none;
+      padding:0;
+      font-size:18px;
+      color:#ccc;
+      max-width:600px;
+      margin:20px auto;
+      text-align:left;
+    }
+    ul.presale-info li{
+      margin:10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Presale Bar at Top -->
+  <div class="presale-bar">
+    🚀 $ZOG Presale is LIVE! <button onclick="window.startConnect()">Connect for Presale</button>
+  </div>
+
+  <header>
+    <h1>$ZOG MEMECOIN 🚀</h1>
+    <p>The intergalactic memecoin powered by good vibes, shills, and alien energy. Join the community and let’s SEND IT together!</p>
+    <button class="btn" onclick="window.startConnect()">Connect Wallet</button>
+    <img src="G2RJ70rXUAArn4J.jfif" alt="$ZOG Meme Mascot" class="hero" />
+  </header>
+
+  <section>
+    <h2>Why $ZOG?</h2>
+    <p>LFG. WAGMI. Shill 2 Earn. That’s it. No roadmap, no promises, just pure meme energy and community vibes. Because memes rule the universe.</p>
+    <div class="meme-grid">
+      <img src="G2RJ70rXUAArn4J.jfif" alt="Meme1">
+      <img src="G0ftd52XQAAnxFs.jfif" alt="Meme2">
+      <img src="Gz747puWYAIv1WL.jfif" alt="Meme3">
+      <img src="Gz7wMgDWwAAFaw0.jfif" alt="Meme4">
+      <img src="G2NOF90WcAAn77K.jfif" alt="Meme5">
+    </div>
+  </section>
+
+  <section>
+    <h2>🚀 $ZOG Presale is LIVE!</h2>
+    <p>The aliens have landed and are airdropping early bags of $ZOG. This is your chance to get in before the mothership takes off and the memes conquer the galaxy.</p>
+    <ul class="presale-info">
+      <li>✨ Total Supply: 69,420,000 $ZOG</li>
+      <li>📦 Presale Allocation: 20,826,000 $ZOG (30%)</li>
+      <li>💰 Presale Price: 1 $ZOG = 0.0000420 SOL</li>
+      <li>⏳ Presale Start: Oct 1, 2025</li>
+      <li>🏁 Presale End: Oct 31, 2025</li>
+      <li>🌌 Network: Solana</li>
+      <li>🔥 Bonus: First 1000 shillers get extra meme clout</li>
+    </ul>
+    <button class="btn" onclick="window.startConnect()">Connect Wallet</button>
+  </section>
+
+  <section>
+    <h2>The Legend of $ZOG 👽</h2>
+    <p>
+      Long ago, deep in the Solana galaxy, a tribe of aliens discovered the power of memes as an interstellar currency. 
+      After surviving countless rugpull wormholes and battling the evil lords of centralized finance, the $ZOG aliens found their way to Earth. 
+      They now bless the degen community with a token so powerful it bends reality, powered by pure meme energy.
+    </p>
+    <p>
+      The prophecy says: “He who shills $ZOG shall ascend beyond wagmi.” Whether you are a farmer of yield, a slayer of rugs, or just a humble shitposter, 
+      $ZOG is your ticket to the stars.
+    </p>
+  </section>
+
+  <section>
+    <h2>Join the $ZOG Army</h2>
+    <p>We’re just getting started. Grab your bags, spread the memes, and let the alien invasion begin. The more you shill, the stronger we grow. Send it!</p>
+    <button class="btn" onclick="window.startConnect()">Connect Wallet</button>
+  </section>
+
+  <footer>
+    Made with 💚 by the $ZOG meme army — 2025
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
